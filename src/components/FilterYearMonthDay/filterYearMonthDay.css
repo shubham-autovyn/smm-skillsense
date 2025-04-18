@@ -1,0 +1,5 @@
+.custom-filter-menu .MuiPopover-paper.MuiMenu-paper {
+  border: none !important;
+  background-color: transparent !important;
+  width: 0px !important;
+}

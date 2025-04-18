@@ -1,0 +1,29 @@
+.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root {
+  font-size: 15px;
+}
+.surplus-manpower2 .MuiDataGrid-columnHeaderTitle {
+  font-weight: 600;
+}
+.surplus-manpower2 .MuiDataGrid-root .MuiDataGrid-virtualScrollerContent .MuiDataGrid-row {
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.surplus-manpower2 .MuiDataGrid-root .MuiDataGrid-row--borderBottom .MuiDataGrid-scrollbarFiller {
+  border-bottom: none !important;
+}
+.surplus-manpower2 .MuiDataGrid-root .MuiDataGrid-row--borderBottom .MuiDataGrid-columnHeader {
+  border: none;
+}
+.surplus-manpower2 .MuiDataGrid-root .MuiDataGrid-cell {
+  border: none;
+}
+.surplus-manpower2 .MuiDataGrid-root .MuiDataGrid-scrollbarFiller.MuiDataGrid-scrollbarFiller--borderTop {
+  border: none;
+}
+.surplus-manpower2 .MuiTypography-root {
+  line-height: 2rem;
+}
+.surplus-manpower2 .MuiDataGrid-virtualScrollerRenderZone {
+  position: static !important;
+}

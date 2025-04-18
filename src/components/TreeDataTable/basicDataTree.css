@@ -1,0 +1,27 @@
+.designRow .btn {
+  cursor: pointer;
+}
+.designRow th {
+  text-align: end;
+}
+.designRow td {
+  text-align: end;
+}
+.designRow td:first-child {
+  text-align: start !important;
+}
+.customHeader th {
+  text-align: end;
+}
+.customHeader th:first-child {
+  text-align: start !important;
+}
+.nonDesignHeaderth:nth-child(1) {
+  text-align: start;
+}
+.nonDesignHeader th {
+  text-align: start !important;
+}
+.nonDesignHeader td input {
+  text-align: start !important;
+}

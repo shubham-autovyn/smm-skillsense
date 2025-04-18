@@ -1,0 +1,46 @@
+.skill-matrix-table {
+  .MuiTableCell-head {
+    border: 1px solid #e6e9f0;
+    font-weight: 600 !important;
+    font-size: 16px;
+  }
+  .footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+  }
+
+  .footer-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 10px;
+  }
+  .TableText {
+    font-size: 10px !important;
+  }
+
+  .MuiPaper-root.MuiTableContainer-root {
+    height: 70vh;
+    border: none !important;
+  }
+}
+ .hoverContent{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0;
+    background-color: #E8E8F4;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    color: #171C8F;
+    flex-direction: column;
+ }

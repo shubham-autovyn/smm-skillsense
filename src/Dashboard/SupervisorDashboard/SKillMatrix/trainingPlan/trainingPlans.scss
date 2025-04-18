@@ -1,0 +1,60 @@
+/* Wrapper for the grid table */
+.table-wrapper {
+  overflow: auto; /* Enable horizontal scrolling */
+  width: 100%; /* Ensure it takes the full width of the parent container */
+  border: 1px solid #ddd; /* Optional: border around the table */
+  padding: 10px;
+}
+
+/* Grid container styles */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr repeat(9, 1fr); /* Adjust for months */
+  gap: 10px;
+  align-items: center;
+  min-width: 800px; /* Minimum width for the grid to enable scrolling */
+}
+
+/* Header and Cell Styling */
+.grid-header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.grid-cell {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Styling for Plan and Actual (stacked) */
+.plan-actual {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.plan {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.actual {
+  color: #28a745;
+}
+
+/* Responsive Grid (Optional) */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 2fr 1fr repeat(6, 1fr); /* Show fewer months */
+  }
+}
+
+.table-cell-custom {
+  width: calc(100% / 2);
+  display: inline-block;
+}

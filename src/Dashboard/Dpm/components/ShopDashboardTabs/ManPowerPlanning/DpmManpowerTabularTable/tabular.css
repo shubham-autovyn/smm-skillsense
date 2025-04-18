@@ -1,0 +1,86 @@
+.table {
+  display: grid;
+  background: #fefefe;
+  width: 100%;
+  overflow-y: auto;
+}
+.row {
+  display: contents;
+}
+.cell {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+.header .cell {
+  font-weight: bold;
+  border: none;
+}
+.table-container {
+  display: table;
+  width: 100%;
+}
+.table-body {
+  display: table-row-group;
+}
+.table-row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  height: 34px;
+}
+.child-cell {
+  display: table-cell;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  height: 25px;
+  padding: 10px;
+  background: #fff;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+.cell-2 {
+  display: flex;
+  position: relative;
+  white-space: nowrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  height: 20px;
+}
+.cell-2 .view-btn {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  cursor: pointer;
+  background: none;
+  font-weight: 500;
+  font-size: 10px;
+}
+.cell-value {
+  text-align: right;
+  justify-content: flex-end;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+.red-value {
+  color: red;
+  font-weight: 600;
+}
+.green-value {
+  color: #30c030;
+  font-weight: 600;
+}

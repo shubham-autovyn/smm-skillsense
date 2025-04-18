@@ -1,0 +1,39 @@
+.FlexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap1 {
+  gap: 4px;
+}
+.gap2 {
+  gap: 10px;
+}
+
+.primaryText {
+  color: #000;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.secondaryText {
+  opacity: 0.5;
+  color: #000;
+  font-size: 12px;
+}
+
+.heading {
+  color: #000;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.table-container {
+  padding: 5px;
+  border: 1px solid #e6e9f0;
+  border-radius: 8px;
+  margin-top: 10px;
+  height: calc(100% - 8rem);
+}

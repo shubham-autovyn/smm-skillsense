@@ -1,0 +1,80 @@
+.top-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+  padding: 10px;
+}
+.date-picker {
+  display: flex;
+  gap: 10px;
+}
+.filter-icon {
+  cursor: pointer;
+}
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f5f8;
+  padding: 10px;
+}
+.date-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.chart-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+.chart-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.overall-joining {
+  width: 486px;
+  height: 214px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #f4f5f8;
+}
+.custom-date-picker {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+.dateWiseChart-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+}
+.fullscreen-mode {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
+.fullscreen-mode .chart-icons {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+.fullscreen-mode img {
+  cursor: pointer;
+}
+.manpower-chart-custom .recharts-surface {
+  overflow: visible;
+}

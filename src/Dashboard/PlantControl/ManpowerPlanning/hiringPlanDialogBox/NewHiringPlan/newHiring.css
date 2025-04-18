@@ -1,0 +1,25 @@
+.black-cell {
+  background-color: #f4f5f8;
+ /* justify-content: left;
+  */
+}
+.joiners-cell {
+  border-right: 2px solid white;
+}
+.editable-cell .MuiInputBase-root {
+  font-size: 15px !important;
+  line-height: 1.5;
+}
+.joiners-cell input {
+  border-bottom: none;
+}
+.super-app-theme--header {
+  text-align: left !important;
+}
+.head {
+  display: flex !important;
+  justify-content: left !important;
+}
+.MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: left !important;
+}

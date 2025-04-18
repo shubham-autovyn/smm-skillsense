@@ -1,0 +1,26 @@
+.pqc-dialog-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 !important;
+}
+.pqc-dialog-title-container>div{
+  display: flex;
+  align-items: center;
+}
+.pqc-dialog-title {
+  font-weight: bold !important;
+  font-size: 1.4rem !important;
+  line-height: 1.6rem !important;
+  letter-spacing: -0.025em !important;
+  color:#66696B;
+}
+.pqc-dialog-button-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 !important;
+}
+.pqc-dialog-buttons>div{
+    margin-left: 1rem;
+}

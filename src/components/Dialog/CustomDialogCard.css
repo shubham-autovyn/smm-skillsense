@@ -1,0 +1,15 @@
+.custom-dialog-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem !important;
+}
+.custom-dialog-title {
+  font-weight: bold !important;
+  font-size: 1.6rem !important;
+  line-height: 1.6rem !important;
+  letter-spacing: -0.025em !important;
+  color: #343536;
+
+}
+

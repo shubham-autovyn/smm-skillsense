@@ -1,0 +1,177 @@
+import { MenuItem } from "@mui/material";
+import TextField from "@mui/material/TextField";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { Grey30, MarutiBlue500, TypePrimary } from "../../utils/colors";
+const theme = createTheme({
+  palette: {
+    neutral: {
+      main: MarutiBlue500,
+    },
+  },
+});
+theme.components.MuiOutlinedInput = {
+  styleOverrides: {
+    root: {
+      borderColor: `${Grey30} !important`,
+
+      outline: Grey30,
+      "& fieldset": {
+        borderColor: Grey30,
+        ouline: "none",
+      },
+
+      "&.Mui-focused": {
+        "&:hover fieldset": {
+          borderColor: Grey30,
+          ouline: "none",
+        },
+      },
+      "&:hover": {
+        "&:hover fieldset": {
+          borderColor: Grey30,
+          ouline: "none",
+        },
+      },
+    },
+  },
+};
+theme.components.MuiInputBase = {
+  styleOverrides: {
+    formControl: {
+      height: "3.2rem !important",
+    },
+  },
+};
+theme.components.MuiSelect = {
+  styleOverrides: {
+    outlined: {
+      fontFamily: "Roboto !important",
+      fontStyle: "normal !important",
+      fontWeight: "normal !important",
+      fontSize: "1.4rem !important",
+      lineHeight: "1.6rem !important",
+      letterSpacing: "-0.025em !important",
+      color: " #000000 !important",
+      marginLeft: "0.5rem !important",
+      position: "relative !important",
+      top: "0.2rem !important",
+    },
+  },
+};
+theme.components.MuiList = {
+  styleOverrides: {
+    padding: {
+      padding: "0.8rem !important",
+    },
+    root: {
+      maxHeight: "16rem",
+      overflowY: "auto",
+      scrollbarWidth: "thin",
+      scrollbarColor: "#c4c4c4 #f4f5f8",
+      "&::-webkit-scrollbar": {
+        width: " 1.2rem",
+      },
+      "&::-webkit-scrollbar-track": {
+        background: " #ffffff",
+      },
+      "&::-webkit-scrollbar-thumb": {
+        backgroundColor: "#c4c4c4",
+        "&:hover": {
+          backgroundColor: "#97999B !important",
+        },
+        height: "3rem",
+        borderRadius: "2rem",
+        border: "0.4rem solid #ffffff",
+      },
+    },
+  },
+};
+theme.components.MuiPaper = {
+  styleOverrides: {
+    elevation: {
+      position: "relative !important",
+      // marginTop: "-1.1rem !important",
+      maxHeight: "fit-content !important",
+      maxWidth: "fit-content !important",
+      borderRadius: "0.8rem",
+    },
+  },
+};
+theme.components.MuiMenuItem = {
+  styleOverrides: {
+    gutters: {
+      fontStyle: "normal !important",
+      fontWeight: "normal !important",
+      fontSize: "1.4rem !important",
+      lineHeight: "1.6rem !important",
+      letterSpacing: "-0.025em !important",
+      color: "#66696b !important",
+      borderBottom: "0.1rem solid #e6e9f0 !important",
+    },
+  },
+};
+
+const Select = (props) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <TextField
+        id={props.id}
+        name={props.name}
+        required={props.required}
+        select
+        SelectProps={{
+          MenuProps: {
+            anchorOrigin: {
+              vertical: "bottom",
+              horizontal: "left",
+            },
+            transformOrigin: {
+              horizontal: "left",
+            },
+          },
+        }}
+        style={{ minWidth: "9.9rem" }}
+        className="custom-select"
+        disabled={props.disabled ? props.disabled : false}
+        fullWidth={true}
+        value={props?.value ? props?.value : ""}
+        color="neutral"
+        onChange={props.onChange}
+        InputProps={{
+          startAdornment: props.label ? (
+            props?.value === "" ? (
+              <span className="select-label font-regular font-normal">
+                {props.label}:
+                <span style={{ color: TypePrimary }}>
+                  {props?.defaultValue}
+                </span>
+              </span>
+            ) : (
+              <span className="select-label font-regular font-normal">
+                {props.label}:
+              </span>
+            )
+          ) : (
+            <></>
+          ),
+        }}
+      >
+        {props?.options && props?.options?.length > 0 ? (
+          props?.options?.map((option) => (
+            <MenuItem
+              key={option?.value || option}
+              value={option?.value || option}
+            >
+              {option?.label || option}
+            </MenuItem>
+          ))
+        ) : (
+          <MenuItem key={"none"} value={""}>
+            none
+          </MenuItem>
+        )}
+      </TextField>
+    </ThemeProvider>
+  );
+};
+export default Select;

@@ -1,0 +1,64 @@
+.radio-button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.radio-label input {
+  display: none;
+}
+
+.radio-custom {
+  width: 15px;
+  height: 15px;
+  border: 1px solid gray; /* Default border */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: border-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Default unchecked state */
+.radio-custom::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Change radio color when selected */
+.radio-label input:checked + .radio-custom {
+  border-color: gray; /* Default color */
+}
+
+/* Green color for 'OK' */
+.radio-label input:checked[value="OK"] + .radio-custom {
+  border-color: green; /* Change border */
+}
+
+.radio-label input:checked[value="OK"] + .radio-custom::before {
+  background-color: green; /* Change dot */
+}
+
+/* Red color for 'NG' and 'NA' */
+.radio-label input:checked[value="NG"] + .radio-custom,
+.radio-label input:checked[value="NA"] + .radio-custom {
+  border-color: red; /* Change border */
+}
+
+.radio-label input:checked[value="NG"] + .radio-custom::before,
+.radio-label input:checked[value="NA"] + .radio-custom::before {
+  background-color: red; /* Change dot */
+}

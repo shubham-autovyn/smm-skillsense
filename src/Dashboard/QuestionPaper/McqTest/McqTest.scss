@@ -1,0 +1,14 @@
+.custom-label .MuiFormControlLabel-label {
+  font-family: ITF Devanagari;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+.mainBox::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}

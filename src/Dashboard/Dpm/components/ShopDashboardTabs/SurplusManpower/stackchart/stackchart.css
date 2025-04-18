@@ -1,0 +1,25 @@
+.customLegend {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.chartLegend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 10px;
+}
+rect {
+  stroke: none !important;
+  cursor: pointer !important;
+}
+.apexcharts-bar-area {
+  filter: none !important;
+}
+.surplus-custom-chart .apexcharts-tooltip.apexcharts-theme-light.apexcharts-active {
+  top: 0 !important;
+}

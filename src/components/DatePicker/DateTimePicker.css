@@ -1,0 +1,72 @@
+.css-n3vk4j-MuiMonthPicker-root {
+  width: inherit !important;
+}
+.css-jrfdaw {
+  font-size: 1.6rem !important;
+}
+.css-dhopo2 {
+  min-height: 26.4rem !important;
+  overflow-y: auto;
+  scrollbar-width: thin !important;
+  scrollbar-color: #c4c4c4 #f4f5f8 !important;
+}
+.css-dhopo2::-webkit-scrollbar {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+.css-dhopo2::-webkit-scrollbar-track {
+  background: #ffffff !important;
+}
+.css-dhopo2::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4 !important;
+  height: 3rem !important;
+  border-radius: 2rem !important;
+  border: 0.4rem solid #ffffff !important;
+}
+.css-dhopo2::-webkit-scrollbar-thumb:hover {
+  background-color: #97999b !important;
+}
+.css-1vnlgzg-MuiTabs-root {
+  min-height: 4.8rem !important;
+}
+.css-1dozdou {
+  margin-top: 1.6rem !important;
+  margin-bottom: 0.8rem !important;
+  padding-left: 2.4rem !important;
+  padding-right: 1.2rem !important;
+  max-height: 3rem !important;
+  min-height: 3rem !important;
+}
+.css-l0iinn {
+  font-family: 'Roboto' !important;
+  font-size: 1.4rem !important;
+}
+.css-epd502 {
+  width: inherit !important;
+}
+.MuiMonthPicker-root.css-1616glu {
+  width: inherit !important;
+}
+.css-1wvgxus-MuiCalendarPicker-viewTransitionContainer {
+  display: block;
+  position: relative;
+  overflow-y: auto;
+  scrollbar-width: thin !important;
+  scrollbar-color: #c4c4c4 #f4f5f8 !important;
+}
+.css-1wvgxus-MuiCalendarPicker-viewTransitionContainer::-webkit-scrollbar {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+.css-1wvgxus-MuiCalendarPicker-viewTransitionContainer::-webkit-scrollbar-track {
+  background: #ffffff !important;
+}
+.css-1wvgxus-MuiCalendarPicker-viewTransitionContainer::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4 !important;
+  height: 3rem !important;
+  border-radius: 2rem !important;
+  border: 0.4rem solid #ffffff !important;
+}
+.css-1wvgxus-MuiCalendarPicker-viewTransitionContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #97999b !important;
+}

@@ -1,0 +1,44 @@
+.customWaterfallLegend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: -25px;
+  font-size: 10px;
+}
+@media (max-width: 668px) {
+  .customWaterfallLegend {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
+ }
+}
+@media (max-width: 480px) {
+  .customWaterfallLegend {
+    font-size: 10px;
+    gap: 8px;
+ }
+}
+.waterfallLegend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.waterfallLegend div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.waterfallLegend div img {
+  width: 12px;
+  margin-right: 5px;
+}
+.hover-waterfall p span {
+  font-size: 10px;
+}
+.hover-waterfall-main {
+  pointer-events: none;
+  position: relative;
+  overflow: visible;
+}

@@ -1,0 +1,44 @@
+.toggle-button-root {
+  min-width: 8rem !important;
+  text-align: center !important;
+  font-size: 1.2rem;
+  height: 3rem;
+  line-height: 1.6rem !important;
+  letter-spacing: -0.025em !important;
+  text-transform: none !important;
+  background-color: #ffffff !important;
+  color: #66696b !important;
+}
+
+.toggle-button-root2 {
+  min-width: 8rem !important;
+  text-align: center !important;
+  font-size: 1.2rem;
+  height: 3rem;
+  line-height: 1.6rem !important;
+  letter-spacing: -0.025em !important;
+  text-transform: none !important;
+  background-color: #ffffff !important;
+  color: #52525b !important;
+}
+
+.active-toggle-button {
+  background-color: #171c8f !important;
+  color: #ffffff !important;
+  border: 1px solid #171c8f !important;
+  font-weight: 600 !important;
+}
+
+.active-toggle-button-black {
+  background-color: #131313 !important;
+  color: #ffffff !important;
+  border: 1px solid #131313 !important;
+  font-weight: 600 !important;
+}
+
+.active-toggle-button-black2 {
+  background-color: #131313 !important;
+  color: #fefefe !important;
+  border: 1px solid #131313 !important;
+  font-weight: 600 !important;
+}

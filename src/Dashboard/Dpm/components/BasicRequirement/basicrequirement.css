@@ -1,0 +1,110 @@
+.list {
+  border-radius: 8px;
+  padding-bottom: 0;
+}
+.list .circle {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  right: 30%;
+}
+.list .circle::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: #ccc;
+  left: 50%;
+  top: -51px;
+}
+.list .circle::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  left: 50%;
+  bottom: -50px;
+}
+.list .circle::before:nth-last-child(1) {
+  display: none !important;
+}
+.list .circle span:nth-last-child(1)::before {
+  display: none !important;
+}
+.list .circle span:nth-child(1)::after {
+  display: none !important;
+}
+.list .circle span::before:nth-last-child(1) {
+  display: none !important;
+}
+.list .circle::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #7a7d7f;
+  left: 50%;
+  bottom: -49px;
+}
+.list .circle::before:last-child {
+  display: none;
+}
+.list .circle::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: #ccc;
+  left: 50%;
+  top: -50px;
+  display: none;
+}
+.list .circle::after :nth-child(1) {
+  display: none;
+}
+.list.circle-before .circle::after {
+  display: none !important;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.list.bottom-before .circle::before {
+  display: none !important;
+}
+.active {
+  background-color: #e0e0ff;
+}
+.values {
+  font-weight: bold;
+}
+.date {
+  color: #555;
+}
+.basicFooter {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  font-size: 10px;
+}
+.currentActiveBox {
+  background-color: #e8e8f4;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 12px;
+  margin: 10px 0;
+}

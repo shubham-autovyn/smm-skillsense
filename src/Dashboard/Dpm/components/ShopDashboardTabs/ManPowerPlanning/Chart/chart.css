@@ -1,0 +1,47 @@
+.custom-legend {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  bottom: 30px;
+}
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 12px;
+}
+.chart-legend > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .custom-legend {
+    flex-direction: column;
+    margin-left: 0;
+ }
+  .chart-legend {
+    justify-content: center;
+    gap: 10px;
+    font-size: 10px;
+ }
+}
+@media screen and (max-width: 480px) {
+  .chart-legend {
+    flex-direction: column;
+    font-size: 9px;
+    gap: 8px;
+ }
+  .chart-legend > div {
+    flex-direction: column;
+    text-align: center;
+ }
+}

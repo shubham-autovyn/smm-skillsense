@@ -1,0 +1,45 @@
+.dateWiseFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dateWiseLegend {
+  position: absolute;
+  margin-top: -13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.dateWiseChartLegend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 12px;
+}
+.apexcharts-bar-area {
+  filter: none !important;
+}
+.plant-manpower-chart .apexcharts-tooltip.apexcharts-theme-light {
+  top: 0 !important;
+}
+.apexcharts-tooltip div p {
+  width: 30%;
+  display: inline-block;
+}
+.apexcharts-tooltip div span {
+  width: 10%;
+  display: inline-block;
+}
+.apexcharts-tooltip ul li p {
+  width: 20%;
+}
+.apexcharts-tooltip ul li p b {
+  width: 17px;
+  display: inline-block;
+}
+.apexcharts-tooltip ul li p b:nth-last-child(1) {
+  margin-left: 34px;
+}

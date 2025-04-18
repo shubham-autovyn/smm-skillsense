@@ -1,0 +1,18 @@
+.date-container {
+  padding: 1rem;
+  border-radius: 0.8rem 0.8rem 0 0;
+  margin-left: 0.3rem;
+  cursor: pointer;
+  width: 12rem;
+  border-bottom: 2px solid #171C8F;
+  background-color: #f4f5f8;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
