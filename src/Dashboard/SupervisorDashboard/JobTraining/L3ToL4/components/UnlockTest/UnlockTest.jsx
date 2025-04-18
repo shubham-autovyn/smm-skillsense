@@ -10,7 +10,7 @@ import {
 } from '@mui/material';
 import React from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
-import SecondaryButton from '../../../../../../../Utilities/Buttons/SecondaryButton/SecondaryButton';
+import SecondaryButton from '../../../../../../../src/utils/Buttons/SecondaryButton/SecondaryButton';
 import CommonRadio from '../../../../../../components/RadioBtn/RadioBtn';
 import { BootstrapDialog } from './UnlockTest.style';
 

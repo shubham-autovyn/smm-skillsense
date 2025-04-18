@@ -1,7 +1,7 @@
 import { Button, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import React from "react";
-import { MarutiBlue500 } from "../../../Utilities/colors";
+import { MarutiBlue500 } from "../../../src/utils/colors";
 
 const theme = createTheme({
   palette: {

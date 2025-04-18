@@ -14,8 +14,8 @@ import {
 import { Fragment, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectPermissions } from "../../../../../../../redux/Selectors/Permission.selector";
-import TransparentButton from "../../../../../../Utilities/Buttons/TransparentButton/TransparentButton";
-import { MarutiBlue500 } from "../../../../../../Utilities/colors";
+import TransparentButton from "../../../../../../src/utils/Buttons/TransparentButton/TransparentButton";
+import { MarutiBlue500 } from "../../../../../../src/utils/colors";
 import RefreshIcon from "../../../../../assets/icons/RefreshIcon.svg";
 import SortIcon from "../../../../../assets/icons/SortIcon.svg";
 import {

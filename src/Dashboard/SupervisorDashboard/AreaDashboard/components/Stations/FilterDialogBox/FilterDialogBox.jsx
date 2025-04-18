@@ -8,8 +8,8 @@ import {
 } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
-import back from '../../../../../../../SMM/assets/svg/goback.svg';
-import next from '../../../../../../../SMM/assets/svg/next-arrow.svg';
+import back from '../../../../../../../src/assets/svg/back-arrow.svg';
+import next from '../../../../../../../src/assets/svg/next-arrow.svg';
 import useFetchStationSkillChart from '../../../../hooks/fetchStationSkillChartData';
 import l3Online from './../../../../../../assets/svg/Online.svg';
 import l4Online from './../../../../../../assets/svg/drakgreen-circle.svg';

@@ -2,15 +2,15 @@ import { Box, DialogContent, Divider, Typography } from "@mui/material";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getUser } from "../../../../../../../../services/Authorization/AuthorizationService";
-import PrimaryButton from "../../../../../../../Utilities/Buttons/PrimaryButton/PrimaryButton";
-import SecondaryButton from "../../../../../../../Utilities/Buttons/SecondaryButton/SecondaryButton";
-import TransparentButton from "../../../../../../../Utilities/Buttons/TransparentButton/TransparentButton";
+import PrimaryButton from "../../../../../../../src/utils/Buttons/PrimaryButton/PrimaryButton";
+import SecondaryButton from "../../../../../../../src/utils/Buttons/SecondaryButton/SecondaryButton";
+import TransparentButton from "../../../../../../../src/utils/Buttons/TransparentButton/TransparentButton";
 import {
   MarutiBlack,
   TypeSecondary,
 } from "../../../../../../utils/colors";
-import DialogCard from "../../../../../../../Utilities/Dialog/DialogCard";
-import Loader from "../../../../../../../Utilities/Loader/Loader";
+import DialogCard from "../../../../../../../src/utils/Dialog/DialogCard";
+import Loader from "../../../../../../components/Loader/Loader";
 import FileIcon from "../../../../../../assets/icons/FileIcon.svg";
 import {
   setAlert,

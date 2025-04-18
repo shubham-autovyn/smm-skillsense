@@ -1,5 +1,5 @@
 import { Box, Card, Typography } from '@mui/material';
-import { Green, Red, TypeSecondary } from '../../../Utilities/colors';
+import { Green, Red, TypeSecondary } from '../../../src/utils/colors';
 import getInitialName from '../../utils/getInitailName';
 
 const ProfileCard = ({ data }) => {

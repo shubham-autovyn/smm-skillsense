@@ -1,6 +1,6 @@
 import { Box, Paper } from "@mui/material";
 import { useEffect, useState } from "react";
-import { Grey10 } from "../../../Utilities/colors";
+import { Grey10 } from "../../../src/utils/colors";
 import Minus from "../../assets/icons/Minus.svg";
 import Plus from "../../assets/icons/Plus.svg";
 import useStyles from "../../Dashboard/styles";

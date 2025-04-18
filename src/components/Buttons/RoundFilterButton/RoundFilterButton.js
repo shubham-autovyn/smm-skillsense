@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { MarutiBlue500, StatusGreen, StatusRed } from "../../../../Utilities/colors";
+import { MarutiBlue500, StatusGreen, StatusRed } from "../../../../src/utils/colors";
 import "./RoundFilterButton.css";
 const theme = createTheme({
   palette: {

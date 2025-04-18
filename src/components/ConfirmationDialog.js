@@ -8,13 +8,13 @@ import {
   Typography,
 } from "@mui/material";
 import { Fragment } from "react";
-import PrimaryButton from "../../Utilities/Buttons/PrimaryButton/PrimaryButton";
-import TransparentButton from "../../Utilities/Buttons/TransparentButton/TransparentButton";
+import PrimaryButton from "../../src/utils/Buttons/PrimaryButton/PrimaryButton";
+import TransparentButton from "../../src/utils/Buttons/TransparentButton/TransparentButton";
 import {
   Grey20,
   StatusAlertSevere,
   TypeSecondary,
-} from "../../Utilities/colors";
+} from "../../src/utils/colors";
 
 const CustomText = (infoText, highlightedText) => {
   const text = infoText?.split(" ");

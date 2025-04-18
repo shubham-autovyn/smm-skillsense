@@ -10,7 +10,7 @@ import Add from '../../../../../assets/svg/fi-rr-add.svg';
 import EditPlan from '../../../../../assets/svg/fi-rr-pencil.svg';
 
 import { useState } from 'react';
-import SecondaryButton from '../../../../../../Utilities/Buttons/SecondaryButton/SecondaryButton';
+import SecondaryButton from '../../../../../../src/utils/Buttons/SecondaryButton/SecondaryButton';
 import CloseIcon from '../../../../../assets/svg/closeIcon.svg';
 import FilterSelectInput from '../../../../../components/FilterSelectInput/FilterSelectInput';
 import PrimaryButton from '../../../../../components/PrimaryButton/PrimaryButton';
