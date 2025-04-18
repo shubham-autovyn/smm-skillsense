@@ -5,7 +5,7 @@ import useOperatorDeployment from "../../../../hooks/operatorDeployment";
 
 // import downlodIcon from "../../../../../../assets/svg/fi-rr-download.svg";
 
-import Select from "../../../../../../../Utilities/Select/Select";
+import Select from "../../../../../../../src/utils/Select/Select";
 import CustomDatePicker from "../../../../../../components/DatePicker/DatePicker";
 import "./Deployment.css";
 import {

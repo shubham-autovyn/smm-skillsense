@@ -8,7 +8,7 @@ import {
   MarutiBlue500,
   TypePrimary,
   TypeSecondary,
-} from "../../../Utilities/colors";
+} from "../../../src/utils/colors";
 import "./DateTimePicker.css";
 
 const theme = createTheme({

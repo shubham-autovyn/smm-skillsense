@@ -8,8 +8,8 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import SecondaryButton from "../../../Utilities/Buttons/SecondaryButton/SecondaryButton";
-import { Grey5, MarutiBlue500 } from "../../../Utilities/colors";
+import SecondaryButton from "../../../src/utils/Buttons/SecondaryButton/SecondaryButton";
+import { Grey5, MarutiBlue500 } from "../../../src/utils/colors";
 import CheckItem from "./CheckItem";
 
 const ColumnSelector = ({

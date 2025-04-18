@@ -13,7 +13,7 @@ import {
   MarutiBlue500,
   TypePrimary,
   TypeSecondary,
-} from '../../../Utilities/colors';
+} from '../../../src/utils/colors';
 const dateFormatter = (val) => {
   var list = val.split('/');
   return list[1] + '/' + list[0] + '/' + list[2];

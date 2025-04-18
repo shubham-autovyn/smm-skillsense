@@ -1,7 +1,7 @@
 import { Box, Paper, Tab } from "@mui/material";
 import { Fragment, useEffect, useState } from "react";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
-import PrimaryButton from "../../../Utilities/Buttons/PrimaryButton/PrimaryButton";
+import PrimaryButton from "../../../src/utils/Buttons/PrimaryButton/PrimaryButton";
 import useStyles from "../styles";
 import RefresherTraining from "./RefresherTraining/RefresherTraining";
 import { useNavigate } from "react-router-dom";

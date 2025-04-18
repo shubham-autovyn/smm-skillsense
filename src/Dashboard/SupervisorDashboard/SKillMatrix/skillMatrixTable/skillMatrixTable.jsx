@@ -19,7 +19,7 @@ import jsPDF from 'jspdf';
 import { debounce } from 'lodash';
 import PropTypes from 'prop-types';
 import React, { useEffect, useMemo, useState } from 'react';
-import { MarutiBlue500 } from '../../../../../Utilities/colors';
+import { MarutiBlue500 } from '../../../../../src/utils/colors';
 import sorting from '../../../../assets/icons/SortIcon.svg';
 import CheckBox from '../../../../assets/svg/Checkbox.svg';
 import download from '../../../../assets/svg/download-btn.svg';

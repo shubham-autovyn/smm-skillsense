@@ -10,8 +10,8 @@ import { Fragment, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { selectPermissions } from "../../../../../redux/Selectors/Permission.selector";
-import PrimaryButton from "../../../../Utilities/Buttons/PrimaryButton/PrimaryButton";
-import { TypePrimary } from "../../../../Utilities/colors";
+import PrimaryButton from "../../../../src/utils/Buttons/PrimaryButton/PrimaryButton";
+import { TypePrimary } from "../../../../src/utils/colors";
 import Department from "../../../assets/images/Department.png";
 import NoTrainingBatch from "../../../components/NoDataViews/NoTrainingBatch";
 import {

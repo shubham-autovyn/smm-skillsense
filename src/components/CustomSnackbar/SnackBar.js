@@ -1,6 +1,6 @@
 import { Alert as Message, Snackbar } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { MarutiWhite } from "../../../Utilities/colors";
+import { MarutiWhite } from "../../../src/utils/colors";
 
 const themeSnackbar = createTheme();
 themeSnackbar.components.MuiSnackbarContent = {

@@ -18,7 +18,7 @@ import {
   TypeTertiary,
   Grey50,
   Yellow100
-} from "../../Utilities/colors";
+} from "../../src/utils/colors";
 
 export const SMMTheme = createTheme({
   palette: {

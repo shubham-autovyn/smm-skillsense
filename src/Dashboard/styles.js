@@ -4,7 +4,7 @@ import {
   MarutiBlue500,
   MarutiWhite,
   Grey50,
-} from "../../Utilities/colors";
+} from "../../src/utils/colors";
 
 const useStyles = makeStyles((theme) => ({
   "grid-cell": {

@@ -1,6 +1,6 @@
 import { Checkbox, MenuItem, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { TypePrimary } from "../../../Utilities/colors";
+import { TypePrimary } from "../../../src/utils/colors";
 import CheckEmpty from "../../assets/icons/CheckEmpty.svg";
 import CheckFill from "../../assets/icons/CheckFill.svg";
 

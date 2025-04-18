@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { Grey10} from "../../../Utilities/colors";
+import { Grey10} from "../../../src/utils/colors";
 
 const ButtonAccordion = ({
   titleComponent
