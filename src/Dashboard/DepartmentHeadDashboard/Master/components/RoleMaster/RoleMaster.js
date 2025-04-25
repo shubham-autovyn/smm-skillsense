@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { Fragment, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { selectPermissions } from "../../../../../../../redux/Selectors/Permission.selector";
+import { selectPermissions } from "container/selectPermissions";
 import TransparentButton from "../../../../../../src/utils/Buttons/TransparentButton/TransparentButton";
 import { MarutiBlue500 } from "../../../../../../src/utils/colors";
 import RefreshIcon from "../../../../../assets/icons/RefreshIcon.svg";

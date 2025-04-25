@@ -8,7 +8,7 @@ import exclamation from '../../../../assets/svg/fi-rr-exclamation.svg';
 import DialogCard from '../../../../components/Dialog/CustomDialogCard';
 
 import { useSelector } from 'react-redux';
-import { getUser } from '../../../../../../services/Authorization/AuthorizationService';
+import { getUser } from '../../../../services/auth';
 import SecondaryButton from '../../../../../src/utils/Buttons/SecondaryButton/SecondaryButton';
 import Check from '../../../../assets/svg/fi-rr-check.svg';
 import { DataGridTable } from '../../../../components/Data-table/dataTable.styles';

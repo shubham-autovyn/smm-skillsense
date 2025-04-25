@@ -2,7 +2,7 @@ import { Box, DialogContent, Typography } from "@mui/material";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import FileIcon from "../../../../../../assets/icons/FileIcon.svg";
-import { getUser } from "../../../../../../../../services/Authorization/AuthorizationService";
+import { getUser } from "../../../../../../services/auth";
 import DialogCard from "../../../../../../utils/Dialog/DialogCard";
 import {
   getLocation,

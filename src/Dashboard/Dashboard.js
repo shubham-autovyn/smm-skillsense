@@ -10,9 +10,11 @@ import {
 import React, { useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { selectPermissions } from '../../../redux/Selectors/Permission.selector';
-import { fetchUserPermissions } from '../../../Repository/UserRepository';
-import { getUser } from '../../../services/Authorization/AuthorizationService';
+import { selectPermissions } from "container/selectPermissions";
+
+// import { selectPermissions } from '../redux/Selectors/Permission.selector';
+import { fetchUserPermissions } from 'container/UserRepository';
+import { getUser } from '../services/auth';
 import TransparentButton from '../utils/Buttons/TransparentButton/TransparentButton';
 import Select from '../utils/Select/Select';
 import Alert from '../components/Snackbar/Snackbar';

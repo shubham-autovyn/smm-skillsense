@@ -1,7 +1,7 @@
 import { Box, DialogContent, Divider, Typography } from "@mui/material";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getUser } from "../../../../../../../../services/Authorization/AuthorizationService";
+import { getUser } from "../../../../../../services/auth";
 import PrimaryButton from "../../../../../../../src/utils/Buttons/PrimaryButton/PrimaryButton";
 import SecondaryButton from "../../../../../../../src/utils/Buttons/SecondaryButton/SecondaryButton";
 import TransparentButton from "../../../../../../../src/utils/Buttons/TransparentButton/TransparentButton";

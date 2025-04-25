@@ -11,7 +11,7 @@ const prodConfig = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "smm",
+      name: "skillsense",
       filename: "remoteEntry.js",
       exposes: {
         "./SMMApp": "./src/bootstrap",

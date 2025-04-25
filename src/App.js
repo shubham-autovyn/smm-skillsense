@@ -2,6 +2,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { createGenerateClassName, StylesProvider } from "@mui/styles";
 import { createContext } from "react";
 import { Provider } from "react-redux";
+import { BrowserRouter as Router } from "react-router-dom";  // Import Router
 import "./App.css";
 import store from "./services/store";
 import Dashboard from "./Dashboard/Dashboard";
@@ -15,16 +16,17 @@ function App({ initialState = {} }) {
     productionPrefix: "qpulse",
     disableGlobal: true,
   });
+  
   return (
-    <StylesProvider 
-    // generateClassName={generateClassName}
-    >
+    <StylesProvider /* generateClassName={generateClassName} */>
       <SMMContext.Provider value={initialState}>
         <ThemeProvider theme={SMMTheme}>
           <Provider store={store}>
-            <div className="smm">
-              <Dashboard />
-            </div>
+            <Router>  {/* Wrap everything in Router */}
+              <div className="smm">
+                <Dashboard />
+              </div>
+            </Router>
           </Provider>
         </ThemeProvider>
       </SMMContext.Provider>

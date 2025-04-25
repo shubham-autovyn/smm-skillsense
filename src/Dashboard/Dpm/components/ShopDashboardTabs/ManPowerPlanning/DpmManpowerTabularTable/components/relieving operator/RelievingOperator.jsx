@@ -22,7 +22,7 @@ import {
 
 import sorting from '../../../../../../../../assets/icons/SortIcon.svg';
 
-import SecondaryButton from '../../../../../../../components/Buttons/SecondaryButton/SecondaryButton';
+import SecondaryButton from '../../../../../../../../utils/Buttons/SecondaryButton/SecondaryButton';
 import DownloadIcon from '../../../../../../../../assets/svg/DawnloadIcon.svg';
 import Select from '../../../../../../../../components/Select/Select';
 import { downloadExcelFile } from '../../../../../../../../utils/downloadExcel';

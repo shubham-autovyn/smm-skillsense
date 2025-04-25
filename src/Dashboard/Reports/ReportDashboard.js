@@ -3,7 +3,7 @@ import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import { Box, Paper } from '@mui/material';
 import { Fragment, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectPermissions } from '../../redux/Selectors/Permission.selector';
+import { selectPermissions } from "container/selectPermissions";
 import Filter from '../../assets/icons/Filter.svg';
 import FilterEnabled from '../../assets/icons/FilterEnabled.svg';
 import RoundButton from '../../components/Buttons/RoundFilterButton/RoundFilterButton';
