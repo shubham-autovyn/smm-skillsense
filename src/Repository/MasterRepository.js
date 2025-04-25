@@ -1,4 +1,4 @@
-import { getBearerToken } from "../../../services/Authorization/AuthorizationService";
+import { getBearerToken } from "../services/auth";
 import { baseClient } from "./BaseRepository";
 
 const fetchMasterData = (payload) => {

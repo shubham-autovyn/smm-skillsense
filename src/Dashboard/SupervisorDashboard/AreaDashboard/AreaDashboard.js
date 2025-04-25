@@ -14,7 +14,7 @@ import {
 import { Fragment, useCallback, useEffect, useState } from 'react';
 import { MarutiBlue500 } from '../../../utils/colors';
 import CustomSwitch from '../../../components/Switch/CustomSwitch';
-import CustomToggleButton from '../../../components/Toggle/CustomToggleButton/CustomToggleButton';
+import CustomToggleButton from '../../../utils/Toggle/CustomToggleButton/CustomToggleButton';
 import Lines from '../../../assets/icons/Lines.svg';
 import User from '../../../assets/icons/User.svg';
 import ProfileCard from '../../../components/Card/ProfileCard';

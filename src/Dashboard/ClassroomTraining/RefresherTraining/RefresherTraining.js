@@ -2,7 +2,7 @@ import { Paper, Skeleton, TableContainer } from "@mui/material";
 import axios from "axios";
 import { Fragment, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { selectPermissions } from "../../../../../redux/Selectors/Permission.selector";
+import { selectPermissions } from "container/selectPermissions";
 import NoTrainingBatch from "../../../components/NoDataViews/NoTrainingBatch";
 import {
   setAlertMessage,

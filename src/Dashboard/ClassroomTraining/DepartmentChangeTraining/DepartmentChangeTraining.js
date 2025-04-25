@@ -9,7 +9,7 @@ import axios from "axios";
 import { Fragment, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { selectPermissions } from "../../../../../redux/Selectors/Permission.selector";
+import { selectPermissions } from "container/selectPermissions";
 import PrimaryButton from "../../../../src/utils/Buttons/PrimaryButton/PrimaryButton";
 import { TypePrimary } from "../../../../src/utils/colors";
 import Department from "../../../assets/images/Department.png";

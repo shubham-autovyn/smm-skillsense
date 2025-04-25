@@ -1,5 +1,5 @@
 import { baseClient } from "./BaseRepository";
-import { getBearerToken } from "../../../services/Authorization/AuthorizationService";
+import { getBearerToken } from "../services/auth";
 export function fetchStaffTrainingData(payload) {
   var path = `/smm/mp/ojt/summary/details?shopID=${payload.shop_id}&groupName=${payload.groupName}&lineName=${payload.lineName}&areaName=${payload.areaName}`;
   return baseClient.get(path);

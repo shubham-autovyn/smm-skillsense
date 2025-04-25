@@ -1,6 +1,6 @@
 import { applyMiddleware, compose, createStore } from "redux";
 import { thunk } from "redux-thunk"; // Use named export
-import RootReducer from "../redux/Reducers/RootReducer";
+import RootReducer from "../redux/Reducers/SMMRootReducer"; // Adjust the import path as necessary
 
 const initialState = {};
 const middleware = [thunk];

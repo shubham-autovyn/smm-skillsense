@@ -1,6 +1,6 @@
 import axios from "axios";
-import config from "../../config/config";
-import { getBearerToken } from "../../../services/Authorization/AuthorizationService";
+import config from "../Config/config";
+import { getBearerToken } from "../services/auth";
 
 const apiClient = axios.create({
   baseURL: config.SMM_ENDPOINT, 

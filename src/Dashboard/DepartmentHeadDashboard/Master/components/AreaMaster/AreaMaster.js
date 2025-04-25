@@ -15,7 +15,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
-import { selectPermissions } from "../../../../../../../redux/Selectors/Permission.selector";
+import { selectPermissions } from "container/selectPermissions";
 import TransparentButton from "../../../../../utils/Buttons/TransparentButton/TransparentButton";
 import { MarutiBlue500 } from "../../../../../utils/colors";
 import RefreshIcon from "../../../../../assets/icons/RefreshIcon.svg";

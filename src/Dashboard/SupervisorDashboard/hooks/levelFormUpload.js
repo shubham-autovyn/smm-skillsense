@@ -1,6 +1,6 @@
 import { useCallback, useRef } from "react";
 import { create } from "zustand";
-import { getBearerToken } from "../../../../../services/Authorization/AuthorizationService";
+import { getBearerToken } from "../../../services/auth";
 import { baseClient } from "../../../Repository/BaseRepository";
 import { cacheStore } from "../../../utils/cacheService";
 
